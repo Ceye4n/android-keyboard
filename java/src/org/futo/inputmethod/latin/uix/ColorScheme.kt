@@ -458,7 +458,8 @@ fun wrapAMOLEDDarkColorScheme(scheme: ColorScheme): KeyboardColorScheme {
             //keyboardContainerPressed = scheme.outline.copy(alpha = 0.1f),
             onKeyboardContainerPressed = Color.Transparent,
             hintColor = null,
-            hintHiVis = false
+            hintHiVis = false,
+            advancedThemeOptions = AdvancedThemeOptions()
         )
     )
 }
